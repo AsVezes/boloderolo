@@ -277,3 +277,28 @@ footer p {
     text-align: center;
     font-weight: bold;
 }
+
+
+.mediaquery {
+    height: 200px;
+    width: 1200px;
+
+}
+
+@media (max-width: 1000px) {
+    .mediaquery {
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mediaquery {
+        width: 300px;
+    }
+}
+
+@media (max-width: 512px) {
+    .mediaquery {
+        width: 200px;
+    }
+}
